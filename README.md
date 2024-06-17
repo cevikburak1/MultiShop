@@ -4,7 +4,7 @@
 
 ## 🚀 Proje Hakkında
 
-Bu proje, modern e-ticaret ihtiyaçlarını karşılamak için ASP.NET Core kullanılarak geliştirilmiştir. Mikroservis mimarisi ile tasarlanan bu platform, ölçeklenebilir ve güvenilir bir alışveriş deneyimi sunmayı amaçlamaktadır. Proje, kapsamlı bir eğitim içeriği sağlayan [Asp.Net Core MultiShop Mikroservis E-Ticaret Kursu](https://www.udemy.com/course/aspnet-core-multishop-mikroservis-e-ticaret-kursu/learn/lecture/41851262#questions) temel alınarak hazırlanmıştır.
+Bu proje, modern e-ticaret ihtiyaçlarını karşılamak için ASP.NET Core kullanılarak geliştirilmiştir. Mikroservis mimarisi ile tasarlanan bu platform, ölçeklenebilir ve güvenilir bir alışveriş deneyimi sunmayı amaçlamaktadır...
 
 ## 🎯 Özellikler
 
