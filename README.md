@@ -1,7 +1,7 @@
 🌟 ASP.NET Core ile E-Ticaret Platformu 🌟
 
 🚀 Proje Hakkında
-Bu proje, modern e-ticaret ihtiyaçlarını karşılamak için ASP.NET Core kullanarak geliştirilmiştir. Mikroservis mimarisi ile tasarlanan bu platform, ölçeklenebilir ve güvenilir bir alışveriş deneyimi sunmayı amaçlamaktadır. Proje, kapsamlı bir eğitim içeriği sağlayan Asp.Net Core MultiShop Mikroservis E-Ticaret Kursu temel alınarak hazırlanmıştır.
+Bu proje, modern e-ticaret ihtiyaçlarını karşılamak için ASP.NET Core kullanılarak geliştirilmiştir. Mikroservis mimarisi ile tasarlanan bu platform, ölçeklenebilir ve güvenilir bir alışveriş deneyimi sunmayı amaçlamaktadır. Proje, kapsamlı bir eğitim içeriği sağlayan Asp.Net Core MultiShop Mikroservis E-Ticaret Kursu temel alınarak hazırlanmıştır.
 
 🎯 Özellikler
 🛒 Katalog Mikroservisleri: MongoDB ile yüksek performanslı ürün veri yönetimi.
@@ -13,8 +13,7 @@ Bu proje, modern e-ticaret ihtiyaçlarını karşılamak için ASP.NET Core kull
 🛒 Redis ile Sepet Yönetimi: Yüksek performanslı sepet yönetimi için Redis kullanımı.
 💻 UI/UX Tasarımı: Kullanıcı dostu arayüz ve kullanıcı deneyimi tasarımı.
 💳 Ödeme İşlemleri: Güvenli ve sorunsuz ödeme entegrasyonu.
-📝 Yorum ve İnceleme Yönetimi: Kullanıcı yorumları ve geri bildirimlerin yönetimi.
-
+📝 Yorum ve İnceleme Yönetimi: Kullanıcı yorumları ve geri bildirimlerinin yönetimi.
 🛠️ Kullanılan Teknolojiler
 ASP.NET Core: Modern web uygulamaları geliştirmek için.
 MongoDB: NoSQL veritabanı yönetimi.
@@ -24,5 +23,9 @@ Docker: Mikroservisleri konteynerleştirmek için.
 Identity Server: Güvenli kimlik doğrulama ve yetkilendirme.
 CQRS: Sorgu ve komutların ayrılması.
 Ocelot: API Gateway entegrasyonu.
-
 🌟 Projeyi beğendiyseniz, ⭐ vermeyi ve repoyu fork'lamayı unutmayın!
+
+
+#ECommerce #AspNetCore #Microservices #SoftwareDevelopment #Docker #MongoDB #PostgreSQL #Redis #IdentityServer #CQRS #Ocelot #SoftwareEngineering
+
+Bu proje, modern ve verimli yazılım çözümleri oluşturma konusundaki sürekli çabalarımın bir parçasıdır. Güncellemeler için depoyu takip edin! 🚀
