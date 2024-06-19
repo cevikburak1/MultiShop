@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Mvc;
 using MultiShop.Catalog.Dtos.ProductDtos;
 using MultiShop.Catalog.Services.ProductServices;
-using MultiShop.Catalog.Services.ProductServices;
 
 namespace MultiShop.Catalog.Controllers
 {
@@ -19,32 +18,32 @@ namespace MultiShop.Catalog.Controllers
         [HttpGet]
         public async Task<IActionResult> ProductList()
         {
-            var result = _productService.GetAllProductAsync();
+            var result = await _productService.GetAllProductAsync();
             return Ok(result);
         }
         [HttpGet("{id}")]
         public async Task<IActionResult> GetProductById(string id)
         {
-            var result = _productService.GetByIdProductAsync(id);
+            var result = await _productService.GetByIdProductAsync(id);
             return Ok(result);
         }
         [HttpPost]
         public async Task<IActionResult> CreateProduct(CreateProductDto createProductDto)
         {
-            var result = _productService.CreateProductAsync(createProductDto);
-            return Ok("Kategori Başarı İle Eklendi");
+            await _productService.CreateProductAsync(createProductDto);
+            return Ok("Ürün Başarı İle Eklendi");
         }
-        [HttpPost]
+        [HttpPut]
         public async Task<IActionResult> UpdateProduct(UpdateProductDto updateProductDto)
         {
-            var result = _productService.UpdateProductAsync(updateProductDto);
-            return Ok("Kategori Başarı İle Güncellendi");
+            await _productService.UpdateProductAsync(updateProductDto);
+            return Ok("Ürün Başarı İle Güncellendi");
         }
         [HttpDelete]
         public async Task<IActionResult> DeleteProduct(string id)
         {
-            var result = _productService.DeleteProductAsync(id);
-            return Ok("Kategori Başarı İle Silindi");
+            await _productService.DeleteProductAsync(id);
+            return Ok("Ürün Başarı İle Silindi");
         }
     }
 }
