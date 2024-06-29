@@ -42,21 +42,21 @@ namespace MultiShop.Order.WebAPI.Controllers
         public async Task<IActionResult> CreateOrderDetail(CreateOrderDetailCommand createOrderDetailCommand)
         {
             await _createOrderDetailCommand.Handle(createOrderDetailCommand);
-            return Ok("Sipariş Detay Bilgisi Başarı İle Eklendi✔");
+            return Ok("Sipariş Detay Bilgisi Başarı İle Eklendi✔👏");
         }
 
         [HttpPut]
         public async Task<IActionResult> UpdateOrderDetail(UpdateOrderDetaİlCommands updateOrderDetailCommand)
         {
             await _updateOrderDetailCommand.Handle(updateOrderDetailCommand);
-            return Ok("Sipariş Detay Bilgisi Başarı İle Güncellendi✔");
+            return Ok("Sipariş Detay Bilgisi Başarı İle Güncellendi✔👍");
         }
 
         [HttpDelete]
         public async Task<IActionResult> RemoveOrderDetail(int id)
         {
             await _removeOrderDetailCommand.Handle(new RemoveOrderDetailCommand(id));
-            return Ok("Sipariş Detay Bilgisi Başarı İle Silindi✔");
+            return Ok("Sipariş Detay Bilgisi Başarı İle Silindi✔🎉");
         }
     }
 }
