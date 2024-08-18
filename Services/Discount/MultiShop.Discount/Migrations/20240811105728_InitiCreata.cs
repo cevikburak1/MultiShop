@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace MultiShop.Discount.Migrations
 {
-    public partial class FirstCommit : Migration
+    public partial class InitiCreata : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
